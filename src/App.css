@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #242424;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  width: 35rem;
+  height: auto;
+}
+
+.container-title {
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+  height: 4rem;
+  background-color: #5affe7;
+  color: #212b38;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+.container-app {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}

@@ -1,0 +1,25 @@
+.containerFilter {
+  display: flex;
+  justify-content: space-between;
+
+  /* width: 80%; */
+  background-color: #121212;
+  margin-inline: auto;
+  padding: 10px;
+  gap: 20px;  
+}
+
+.containerFilter > label {
+  color: #e0e0e0;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.containerFilter input[type='radio'] {
+  display: none;
+}
+
+label:has(input[type="radio"]:checked) {
+  color: #ff006e;
+  font-weight: bold;
+}

@@ -1,0 +1,57 @@
+.itemTodo {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  height: 2rem;
+  gap: 5px;
+  /* width: 100%; */
+}
+
+.todoText {
+  display: flex;
+  gap: 8px;
+}
+
+.todoText > p {
+  font-size: 1.2rem;
+}
+
+.todoText input[type='text'] {
+  font-size: 1.1rem;
+}
+
+.todoText input[type='checkbox'] {
+  width: 20px;
+}
+
+.todoActions {
+  display: flex;
+  gap: 7px;
+}
+
+.todoActions button {
+  font-size: 1.1rem;
+  padding: 2px 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.edit {
+  background-color: rgb(208, 208, 18);
+}
+
+.delete {
+  background-color: red;
+  color: antiquewhite;
+}
+
+.save {
+  background-color: #2196f3;
+  color: white;
+}
+
+.cancel {
+  background-color: #a7a7a7;
+}
